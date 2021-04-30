@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>RATEMA-contacts</title>
+<link rel="icon" type="image/png" href="images/greenhand.png"  sizes="16x16">
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  padding: 10px; /*some padding */
+  text-align: center; /* center the text */
+  background: #1abc9c; /* green background */
+ background-image: url('images/hands2.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+   /* background-size: 100% 100%;
+   background-size: Auto 300px;
+    background-size: cover;*/
+    background-size: contain;
+    background-size: round auto;
+
+  color: white; /* white text color */
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 40px;
+}
+
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #333; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+
+
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%; /* Set the width of the sidebar */
+  background-color: #f1f1f1; /* Grey background color */
+  padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.main { 
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+}
+
+.jiunge{
+
+   display: grid;
+    grid-gap: 2px;
+     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+
+.facebook {
+  
+  /*background-color: #aaa;*/
+  width: 100%;
+  padding: 10px;
+  background-image: url('images/facebook.png');
+  background-repeat: no-repeat;
+}
+
+
+.twitter {
+  
+  /*background-color: #aaa;*/
+  width: 100%;
+  padding: 10px;
+  background-image: url('images/twitter.png');
+  background-repeat: no-repeat;
+}
+
+.instagram {
+  
+  /*background-color: #aaa;*/
+  width: 100%;
+  padding: 10px;
+  background-image: url('images/instagram.png');
+  background-repeat: no-repeat;
+}
+
+.youtube {
+  
+  /*background-color: #aaa;*/
+  width: 100%;
+  padding: 10px;
+  background-image: url('images/youtube.png');
+  background-repeat: no-repeat;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer2 {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #333;
+   color: white;
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header"  style="height: 200px;">
+<!--h1>RATEMA</h1>
+<p>RAFIKI TEHAMA KWA MAENDELEO YA JAMII.</p-->
+<!--p>(Friendly Techonologies For Community Development).</p-->
+</div>
+
+<div class="navbar">
+ <a href="index.htm">Home</a>
+  <a href="project.htm">Projects</a>
+  <a href="aboutus.htm">About Us</a>
+  <a href="contact.htm" class="right">Contacts</a>
+</div>
+
+
+
+<div class="row">
+  
+  
+
+<div class="side">
+    <h2>Contact</h2>
+    <h5>RATEMA</h5>
+    <h5>RAFIKI TEHAMA KWA MAENDELEO YA JAMII</h5>
+    <p>Rita Tower 10th floor</p>
+    <p>Makunganya/ sim Street,DSM</p>
+    <p>P O Box	14718 DSM,Tanzania</p>
+    <p>Email:	info@ratema.com</p>
+    <p>Phone:  +255 712259870</p>
+
+    
+  </div>
+
+  <div class="main">
+    <h2>Follow Us On:</h2>
+    <div class="jiunge">
+    
+    <a href="https://www.facebook.com/ratema2018/?modal=admin_todo_tour"><div class="facebook" style="height:200px;"><h5>Facebook</h5></div></a>
+    <br>
+   
+   <a href="https://twitter.com/RatemaTz"><div class="twitter" style="height:200px;"><h5>Twitter</h5></div></a>
+    <br>
+   
+   <a href="https://www.instagram.com/ratema2018/"><div class="instagram" style="height:200px;"><h5>Instagram</h5></div></a>
+    <br>
+  <!--h5>YouTube</h5-->
+   <!--div class="youtube" style="height:200px;"></div--> 
+    <br>
+     </div>
+  </div>
+
+</div>
+
+<div class="footer2">
+<h2>Partners with:</h2>
+</div>
+
+<br>
+
+<div class="footer">
+  <p>Copyright © 2020 RATEMA   |   ALL RIGHTS RESERVED </p>
+  
+</div>
+
+
+
+
+
+</body>
+</html>
